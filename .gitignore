@@ -1,0 +1,31 @@
+# Build outputs
+Debug/
+Release/
+**/Exe/
+**/List/
+
+# Compiled files
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnk
+*.bak
+*.crf
+*.htm
+*.dep
+
+# IDE temporary files
+.trae/
+*.uvguix.*
+*.uvoptx
+DebugConfig/
+*.launch
+
+# OS generated files
+Thumbs.db
+.DS_Store
