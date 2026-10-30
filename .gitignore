@@ -1,0 +1,51 @@
+# ===== 构建产物 =====
+Debug/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+
+# ===== IDE / 工具元数据 =====
+.metadata/
+.settings/
+.ai/
+.screenshots/
+.cproject
+.project
+*.launch
+*.code-workspace
+
+# ===== 内部文档与个人素材（不公开）=====
+.trae/
+
+# ===== ST 官方内容：由 STM32CubeMX / TouchGFX Designer 重新生成 =====
+Drivers/
+Middlewares/
+
+# ===== TouchGFX 桌面模拟器构建产物 =====
+Src/build/
+
+# ===== 大体积资源（字体版权不明确，由 Designer 重新生成）=====
+Src/assets/
+
+# ===== Python 虚拟环境 =====
+Python/venv/
+__pycache__/
+*.pyc
+
+# ===== 调试日志 =====
+build.log
+build.txt
+gene.txt
+sim.txt
+uart.txt
+
+# ===== 操作系统 =====
+Thumbs.db
+desktop.ini
+.DS_Store
